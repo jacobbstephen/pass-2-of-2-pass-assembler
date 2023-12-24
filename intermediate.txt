@@ -1,0 +1,7 @@
+		COPY    START    1000
+1000	CLOOP   STA      STR
+1003	        STL      CLOOP
+1006	STR     BYTE     C'EOF'
+1009	RESULT  WORD     45
+100B	VAR     BYTE     X'6996'
+100E	        END
